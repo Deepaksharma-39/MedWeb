@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import cogoToast from 'cogo-toast';
+
 const { createSlice } = require('@reduxjs/toolkit');
 
 const cartSlice = createSlice({

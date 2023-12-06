@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import featureIconData from "../../data/feature-icons/feature-icon-five.json";
-import FeatureIconFiveSingle from "../../components/feature-icon/FeatureIconFiveSingle.js";
+import FeatureIconFiveSingle from "./FeatureIconFiveSingle";
 
 const FeatureIconFive = ({ spaceBottomClass }) => {
   return (
