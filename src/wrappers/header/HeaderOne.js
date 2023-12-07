@@ -4,6 +4,8 @@ import clsx from "clsx";
 
 import HeaderTop from "../../components/header/HeaderTop";
 import Logo from "./Logo";
+import IconGroup from "../../components/header/IconGroup";
+import MobileMenu from "../../components/header/MobileMenu";
 import NavMenu from "../../components/header/NavMenu";
 
 const HeaderOne = ({
@@ -64,12 +66,12 @@ const HeaderOne = ({
             </div>
             <div className="col-xl-2 col-lg-2 col-md-6 col-8">
               {/* Icon group */}
-              {/* <IconGroup /> */}
+              <IconGroup />
             </div>
           </div>
         </div>
         {/* mobile menu */}
-        {/* <MobileMenu /> */}
+        <MobileMenu />
       </div>
     </header>
   );

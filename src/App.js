@@ -1,58 +1,44 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import './App.css';
-import { Suspense, lazy } from 'react';
-import ScrollToTop from './helpers/scroll-top';
+import "./App.css";
+import { Suspense, lazy } from "react";
+import ScrollToTop from "./helpers/scroll-top";
 
+const Home = lazy(() => import("./pages/home/Home"));
 
-const HomeMedicalEquipment = lazy(() =>
-  import("./pages/home/HomeMedicalEquipment")
-);
+const Contact = lazy(() => import("./pages/other/Contact"));
 
-const Contact = lazy(() =>
-  import("./pages/other/Contact")
-);
+const About = lazy(() => import("./pages/other/About"));
 
-const About = lazy(() =>
-  import("./pages/other/About")
-);
+const Shop = lazy(() => import("./pages/shop/Shop"));
+
+const Product = lazy(() => import("./pages/shop-product/Product"));
 
 const App = () => {
-
-  
   return (
-      <Router>
-        <ScrollToTop>
-          <Suspense
-            fallback={
-              <div className="flone-preloader-wrapper">
-                <div className="flone-preloader">
-                  <span></span>
-                  <span></span>
-                </div>
+    <Router>
+      <ScrollToTop>
+        <Suspense
+          fallback={
+            <div className="flone-preloader-wrapper">
+              <div className="flone-preloader">
+                <span></span>
+                <span></span>
               </div>
-            }
-          >
-            <Routes>
-              <Route
-                path={ "/"}
-                element={<HomeMedicalEquipment/>}
-              />
-                 <Route
-                path={ "/contact"}
-                element={<Contact/>}
-              />
-              <Route
-                path={ "/about"}
-                element={<About/>}
-              />
-
-            </Routes>
-          </Suspense>
-        </ScrollToTop>
-      </Router>
+            </div>
+          }
+        >
+          <Routes>
+            <Route path={"/"} element={<Home />} />
+            <Route path={"/contact"} element={<Contact />} />
+            <Route path={"/about"} element={<About />} />
+            <Route path={"/shop"} element={<Shop />} />
+            <Route path={"/shop/:id"} element={<Product />} />
+          </Routes>
+        </Suspense>
+      </ScrollToTop>
+    </Router>
   );
 };
 
 export default App;
-

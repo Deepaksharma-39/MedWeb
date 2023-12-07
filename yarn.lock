@@ -8923,6 +8923,11 @@ react-helmet-async@^2.0.3:
     react-fast-compare "^3.2.2"
     shallowequal "^1.1.0"
 
+react-hooks-paginator@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.npmjs.org/react-hooks-paginator/-/react-hooks-paginator-0.5.1.tgz"
+  integrity sha512-rI9Cv6kowjI6gDq/EexF5L7D2rpHDe5SRtMwdW5EP9UASatqO/L9tZOBS2Azqd9yC714MJ+GSwNEYxeO1geP5g==
+
 react-i18next@^13.5.0:
   version "13.5.0"
   resolved "https://registry.npmjs.org/react-i18next/-/react-i18next-13.5.0.tgz"
