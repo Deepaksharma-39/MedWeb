@@ -12,6 +12,11 @@ const HomeMedicalEquipment = lazy(() =>
 const Contact = lazy(() =>
   import("./pages/other/Contact")
 );
+
+const About = lazy(() =>
+  import("./pages/other/About")
+);
+
 const App = () => {
 
   
@@ -36,6 +41,10 @@ const App = () => {
                  <Route
                 path={ "/contact"}
                 element={<Contact/>}
+              />
+              <Route
+                path={ "/about"}
+                element={<About/>}
               />
 
             </Routes>
