@@ -1,5 +1,5 @@
+import { createSlice } from '@reduxjs/toolkit';
 import cogoToast from 'cogo-toast';
-const { createSlice } = require('@reduxjs/toolkit');
 
 const compareSlice = createSlice({
     name: "compare",
