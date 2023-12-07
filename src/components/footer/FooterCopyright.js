@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
   return (
     <div className={clsx("copyright", spaceBottomClass, colorClass)}>
+       <p>
+      By &#10084;&#65039; TechPlek Technologies
+      </p>
       <div className="footer-logo">
-        <Link to={process.env.PUBLIC_URL + "/"}>
+        <Link to={"/"}>
           <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
         </Link>
       </div>
@@ -17,10 +20,11 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Flone
+          Teracure
         </a>
         .<br /> All Rights Reserved
       </p>
+     
     </div>
   );
 };

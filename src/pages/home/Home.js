@@ -12,7 +12,7 @@ import TabProductSixteen from "../../wrappers/product/TabProductSixteen";
 
 
 
-const HomeMedicalEquipment = () => {
+const Home = () => {
   return (
     <Fragment>
       <SEO
@@ -46,4 +46,4 @@ const HomeMedicalEquipment = () => {
   );
 };
 
-export default HomeMedicalEquipment;
+export default Home;
