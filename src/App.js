@@ -14,6 +14,12 @@ const Shop = lazy(() => import("./pages/shop/Shop"));
 
 const Product = lazy(() => import("./pages/shop-product/Product"));
 
+const Compare = lazy(() => import("./pages/other/Compare"));
+
+const Wishlist = lazy(() => import("./pages/other/Wishlist"));
+
+const Cart = lazy(() => import("./pages/other/Cart"));
+
 const App = () => {
   return (
     <Router>
@@ -34,6 +40,9 @@ const App = () => {
             <Route path={"/about"} element={<About />} />
             <Route path={"/shop"} element={<Shop />} />
             <Route path={"/shop/:id"} element={<Product />} />
+            <Route path={"/compare"} element={<Compare />} />
+            <Route path={"/wishlist"} element={<Wishlist />} />
+            <Route path={"/cart"} element={<Cart />} />
           </Routes>
         </Suspense>
       </ScrollToTop>
