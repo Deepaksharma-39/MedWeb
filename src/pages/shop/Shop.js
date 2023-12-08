@@ -53,7 +53,7 @@ const Shop = () => {
         description="Shop page of flone react minimalist eCommerce template."
       />
 
-      <LayoutOne headerTop="visible">
+      <LayoutOne headerTop="">
         {/* breadcrumb */}
         <BreadcrumbWrap
           pages={[

@@ -132,7 +132,7 @@ const ProductGridSingle = ({
           ) : (
             ""
           )}
-          <div className="product-price">
+          {/* <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
                 <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
@@ -143,7 +143,7 @@ const ProductGridSingle = ({
             ) : (
               <span>{currency.currencySymbol + finalProductPrice} </span>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
       {/* product modal */}

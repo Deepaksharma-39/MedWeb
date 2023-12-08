@@ -133,7 +133,7 @@ const ProductGridListSingle = ({
           ) : (
             ""
           )}
-          <div className="product-price">
+          {/* <div className="product-price">
             {discountedPrice !== null ? (
               <Fragment>
                 <span>{currency.currencySymbol + finalDiscountedPrice}</span>{" "}
@@ -144,7 +144,7 @@ const ProductGridListSingle = ({
             ) : (
               <span>{currency.currencySymbol + finalProductPrice} </span>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="shop-list-wrap mb-30">

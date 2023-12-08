@@ -22,7 +22,7 @@ const Home = () => {
       <LayoutOne
         headerContainerClass="container-fluid"
         headerPaddingClass="header-padding-2"
-        headerTop="visible"
+        headerTop=""
       >
         {/* hero slider */}
         <HeroSliderTwentyFive/>

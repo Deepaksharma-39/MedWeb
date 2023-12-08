@@ -107,7 +107,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
         <div className="col-md-7 col-sm-12 col-xs-12">
           <div className="product-details-content quickview-content">
             <h2>{product.name}</h2>
-            <div className="product-details-price">
+            {/* <div className="product-details-price">
               {discountedPrice !== null ? (
                 <Fragment>
                   <span>
@@ -120,7 +120,7 @@ function ProductModal({ product, currency, discountedPrice, finalProductPrice, f
               ) : (
                 <span>{currency.currencySymbol + finalProductPrice} </span>
               )}
-            </div>
+            </div> */}
             {product.rating && product.rating > 0 ? (
               <div className="pro-details-rating-wrap">
                 <div className="pro-details-rating">

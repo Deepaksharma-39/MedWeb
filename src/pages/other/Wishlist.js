@@ -23,7 +23,7 @@ const Wishlist = () => {
         titleTemplate="Wishlist"
         description="Wishlist page of flone react minimalist eCommerce template."
       />
-      <LayoutOne headerTop="visible">
+      <LayoutOne headerTop="">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
@@ -44,7 +44,7 @@ const Wishlist = () => {
                           <tr>
                             <th>Image</th>
                             <th>Product Name</th>
-                            <th>Unit Price</th>
+                            {/* <th>Unit Price</th> */}
                             <th>Add To Cart</th>
                             <th>action</th>
                           </tr>
@@ -70,7 +70,7 @@ const Wishlist = () => {
                                   <Link
                                     to={
                                       process.env.PUBLIC_URL +
-                                      "/product/" +
+                                      "/shop/" +
                                       wishlistItem.id
                                     }
                                   >
@@ -89,7 +89,7 @@ const Wishlist = () => {
                                   <Link
                                     to={
                                       process.env.PUBLIC_URL +
-                                      "/product/" +
+                                      "/shop/" +
                                       wishlistItem.id
                                     }
                                   >
@@ -97,7 +97,7 @@ const Wishlist = () => {
                                   </Link>
                                 </td>
 
-                                <td className="product-price-cart">
+                                {/* <td className="product-price-cart">
                                   {discountedPrice !== null ? (
                                     <Fragment>
                                       <span className="amount old">
@@ -115,7 +115,7 @@ const Wishlist = () => {
                                         finalProductPrice}
                                     </span>
                                   )}
-                                </td>
+                                </td> */}
 
                                 <td className="product-wishlist-cart">
                                   {wishlistItem.affiliateLink ? (
@@ -214,7 +214,7 @@ const Wishlist = () => {
                     </div>
                     <div className="item-empty-area__text">
                       No items found in wishlist <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/wishlist"}>
+                      <Link to={process.env.PUBLIC_URL + "/shop"}>
                         Add Items
                       </Link>
                     </div>

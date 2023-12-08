@@ -14,7 +14,7 @@ const Contact = () => {
         titleTemplate="Contact"
         description="Contact page of flone react minimalist eCommerce template."
       />
-      <LayoutOne headerTop="visible">
+      <LayoutOne headerTop="">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
@@ -109,6 +109,9 @@ const Contact = () => {
                       </div>
                       <div className="col-lg-6">
                         <input name="email" placeholder="Email*" type="email" />
+                      </div>
+                      <div className="col-lg-12">
+                        <input name="email" placeholder="Phone*" type="number" />
                       </div>
                       <div className="col-lg-12">
                         <input

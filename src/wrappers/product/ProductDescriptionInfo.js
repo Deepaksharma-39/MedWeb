@@ -7,6 +7,7 @@ import { addToCart } from "../../store/slices/cart-slice";
 import { addToWishlist } from "../../store/slices/wishlist-slice";
 import { addToCompare } from "../../store/slices/compare-slice";
 import ProductRating from "../../components/product/sub-components/ProductRating";
+import Popup from "../../components/popup/Popup";
 
 const ProductDescriptionInfo = ({
   product,
@@ -18,6 +19,7 @@ const ProductDescriptionInfo = ({
   wishlistItem,
   compareItem,
 }) => {
+
   const dispatch = useDispatch();
   const [selectedProductColor, setSelectedProductColor] = useState(
     product.variation ? product.variation[0].color : ""
@@ -178,6 +180,7 @@ const ProductDescriptionInfo = ({
           </div>
           <div className="pro-details-cart btn-hover">
             {productStock && productStock > 0 ? (
+             <>
               <button
                 onClick={() =>
                   dispatch(addToCart({
@@ -192,6 +195,12 @@ const ProductDescriptionInfo = ({
                 {" "}
                 Add To Cart{" "}
               </button>
+
+           
+             </>
+              
+
+              
             ) : (
               <button disabled>Out of Stock</button>
             )}
@@ -292,6 +301,8 @@ const ProductDescriptionInfo = ({
           </li>
         </ul>
       </div>
+
+      {/* <Popup show={modalShow} onHide={() => setModalShow(false)}/> */}
     </div>
   );
 };

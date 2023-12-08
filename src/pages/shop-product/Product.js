@@ -21,7 +21,7 @@ const Product = () => {
         description="Product page of flone react minimalist eCommerce template."
       />
 
-      <LayoutOne headerTop="visible">
+      <LayoutOne headerTop="">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
@@ -50,6 +50,7 @@ const Product = () => {
           spaceBottomClass="pb-95"
           category={product.category[0]}
         />
+        
       </LayoutOne>
     </Fragment>
   );

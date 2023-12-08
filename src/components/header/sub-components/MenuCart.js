@@ -34,7 +34,7 @@ const MenuCart = () => {
               return (
                 <li className="single-shopping-cart" key={item.cartItemId}>
                   <div className="shopping-cart-img">
-                    <Link to={process.env.PUBLIC_URL + "/product/" + item.id}>
+                    <Link to={process.env.PUBLIC_URL + "/shop/" + item.id}>
                       <img
                         alt=""
                         src={process.env.PUBLIC_URL + item.image[0]}
@@ -45,18 +45,14 @@ const MenuCart = () => {
                   <div className="shopping-cart-title">
                     <h4>
                       <Link
-                        to={process.env.PUBLIC_URL + "/product/" + item.id}
+                        to={process.env.PUBLIC_URL + "/shop/" + item.id}
                       >
                         {" "}
                         {item.name}{" "}
                       </Link>
                     </h4>
                     <h6>Qty: {item.quantity}</h6>
-                    <span>
-                      {discountedPrice !== null
-                        ? currency.currencySymbol + finalDiscountedPrice
-                        : currency.currencySymbol + finalProductPrice}
-                    </span>
+                    
                     {item.selectedProductColor &&
                     item.selectedProductSize ? (
                       <div className="cart-item-variation">
@@ -76,23 +72,10 @@ const MenuCart = () => {
               );
             })}
           </ul>
-          <div className="shopping-cart-total">
-            <h4>
-              Total :{" "}
-              <span className="shop-total">
-                {currency.currencySymbol + cartTotalPrice.toFixed(2)}
-              </span>
-            </h4>
-          </div>
+          
           <div className="shopping-cart-btn btn-hover text-center">
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
               view cart
-            </Link>
-            <Link
-              className="default-btn"
-              to={process.env.PUBLIC_URL + "/checkout"}
-            >
-              checkout
             </Link>
           </div>
         </Fragment>

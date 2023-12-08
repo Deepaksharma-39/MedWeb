@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Covid - 19 Collection",
-    "subtitle": "Medicine & PPE Stay Safe",
-    "image": "/assets/img/slider/slider-26.jpg",
+    "title": "Your Pet's Health, Our Priority",
+    "subtitle": "Veterinary Meds at Your Doorstep!",
+    "image": "/assets/img/slider/1.webp",
     "url": "/shop"
   },
   {
     "id": 2,
-    "title": "Covid - 19 Collection",
-    "subtitle": "Medicine & PPE Stay Safe",
-    "image": "/assets/img/slider/slider-27.jpg",
+    "title": "Ensuring Healthier Lives for Animals",
+    "subtitle": "Animal Wellness Assurance",
+    "image": "/assets/img/slider/2.webp",
     "url": "/shop"
   }
 ]
