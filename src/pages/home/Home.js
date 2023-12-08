@@ -6,7 +6,7 @@ import BannerTwentyFive from "../../wrappers/banner/BannerTwentyFive";
 import FeatureIconFive from "../../wrappers/feature-icon/FeatureIconFive";
  import BannerTwentySix from "../../wrappers/banner/BannerTwentySix";
 import ProductSlider from "../../wrappers/product/ProductSlider";
-import BlogFeaturedFour from "../../wrappers/blog-featured/BlogFeaturedFour";
+// import BlogFeaturedFour from "../../wrappers/blog-featured/BlogFeaturedFour";
 import MedicalContact from "../../components/contact/MedicalContact";
 import TabProductSixteen from "../../wrappers/product/TabProductSixteen";
 
@@ -37,7 +37,7 @@ const Home = () => {
          {/* product slider */}
         <ProductSlider category="medical" />
         {/* blog */}
-        <BlogFeaturedFour spaceBottomClass="pb-55" spaceTopClass="pt-95" />
+        {/* <BlogFeaturedFour spaceBottomClass="pb-55" spaceTopClass="pt-95" /> */}
         {/* contact */}
         <MedicalContact />
 
