@@ -20,6 +20,10 @@ const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 
 const Cart = lazy(() => import("./pages/other/Cart"));
 
+const TermsAndCondition = lazy(() => import("./pages/policy/TermsAndCondition"));
+
+const ReturnPolicy = lazy(() => import("./pages/policy/ReturnPolicy"));
+
 const App = () => {
   return (
     <Router>
@@ -43,6 +47,8 @@ const App = () => {
             <Route path={"/compare"} element={<Compare />} />
             <Route path={"/wishlist"} element={<Wishlist />} />
             <Route path={"/cart"} element={<Cart />} />
+            <Route path={"/terms-and-condition"} element={<TermsAndCondition />} />
+            <Route path={"/return-policy"} element={<ReturnPolicy />} />
           </Routes>
         </Suspense>
       </ScrollToTop>
