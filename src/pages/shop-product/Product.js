@@ -41,6 +41,7 @@ const Product = () => {
         {/* product description tab */}
         <ProductDescriptionTab
           spaceBottomClass="pb-90"
+          product={product}
           productFullDesc={product.fullDescription}
         />
 
