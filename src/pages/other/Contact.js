@@ -35,8 +35,8 @@ const Contact = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+91 8178 3070 47</p>
+                      {/* <p>+012 345 678 102</p> */}
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -45,15 +45,15 @@ const Contact = () => {
                     </div>
                     <div className="contact-info-dec">
                       <p>
-                        <a href="mailto:yourname@email.com">
-                          yourname@email.com
+                        <a href="mailto:saimedilink@gmail.com">
+                          saimedilink@gmail.com
                         </a>
                       </p>
-                      <p>
+                      {/* <p>
                         <a href="https://yourwebsitename.com">
                           yourwebsitename.com
                         </a>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -61,8 +61,8 @@ const Contact = () => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Shop No. 13, BH Block Ground Floor,</p>
+                      <p> DDA Market Shalimar Bagh, Delhi - 88.</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
