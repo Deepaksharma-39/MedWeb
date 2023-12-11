@@ -24,6 +24,8 @@ const TermsAndCondition = lazy(() => import("./pages/policy/TermsAndCondition"))
 
 const ReturnPolicy = lazy(() => import("./pages/policy/ReturnPolicy"));
 
+const PrivacyPolicy = lazy(() => import("./pages/policy/PrivacyPolicy"));
+
 const App = () => {
   return (
     <Router>
@@ -49,6 +51,7 @@ const App = () => {
             <Route path={"/cart"} element={<Cart />} />
             <Route path={"/terms-and-condition"} element={<TermsAndCondition />} />
             <Route path={"/return-policy"} element={<ReturnPolicy />} />
+            <Route path={"/privacy-policy"} element={<PrivacyPolicy/>} />
           </Routes>
         </Suspense>
       </ScrollToTop>
