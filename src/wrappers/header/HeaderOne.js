@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
-
 import HeaderTop from "../../components/header/HeaderTop";
 import Logo from "./Logo";
 import IconGroup from "../../components/header/IconGroup";
@@ -58,7 +57,7 @@ const HeaderOne = ({
           <div className="row">
             <div className="col-xl-2 col-lg-2 col-md-6 col-4">
               {/* header logo */}
-              <Logo imageUrl="/assets/img/logo/logo.png" logoClass="logo" />
+              <Logo imageUrl="/assets/img/logo/teracure.svg" logoClass="logo" />
             </div>
             <div className="col-xl-8 col-lg-8 d-none d-lg-block">
               {/* Nav menu */}
