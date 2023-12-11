@@ -149,6 +149,7 @@ const TermsAndCondition=()=>{
                 Designation: Grievance Officer<br/>
                 Email Address: saimedilink@gmail.com<br/>
                 Call at 8178307047<br/>
+                Address: Shop No. 13, BH Block Ground Floor, DDA Market Shalimar Bagh, Delhi - 88
                 </div>
     
               </div>
