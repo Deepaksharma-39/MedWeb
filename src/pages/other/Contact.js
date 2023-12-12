@@ -25,7 +25,7 @@ const Contact = () => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <GoogleMap lat={47.444} lng={-122.176} />
+              <GoogleMap lat={28.711791445329794} lng={77.15341484776795} />
             </div>
             <div className="custom-row-2">
               <div className="col-12 col-lg-4 col-md-5">
