@@ -40,6 +40,7 @@ const BannerTwentySix = ({ spaceBottomClass }) => {
                 />
               </a>
               <div className="banner-content-33-2 banner-content-33-2-position2">
+                
                 <h2>
                   Hand Gloves <br />
                   Up To 30% Off
