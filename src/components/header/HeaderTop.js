@@ -8,12 +8,12 @@ const HeaderTop = ({ borderStyle }) => {
     return (
       <div className={clsx("header-top-wap", borderStyle === "fluid-border" && "border-bottom")}>
         <div className="header-offer">
-          <p>
+          {/* <p>
             Free delivery on order over{" "}
             <span>
               {200}
             </span>
-          </p>
+          </p> */}
         </div>
       </div>
     );

@@ -7,12 +7,9 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
       <div className="container">
         <div className="welcome-content text-center">
           <h5>Who Are We</h5>
-          <h1>Welcome To Flone</h1>
+          <h1>Ensure A Healthier, Happier Future For Your Animal Companions!</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commo consequat irure{" "}
+          Welcome to Teracure, where we are dedicated to the well-being of your beloved animal companions. As a leading provider of veterinary medicines, we take pride in our commitment to ensuring the health and happiness of your pets and livestock.{" "}
           </p>
         </div>
       </div>
