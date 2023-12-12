@@ -60,7 +60,7 @@ const Compare = () => {
                                   <Link
                                     to={
                                       process.env.PUBLIC_URL +
-                                      "/product/" +
+                                      "/shop/" +
                                       compareItem.id
                                     }
                                     className="image"
@@ -78,7 +78,7 @@ const Compare = () => {
                                     <Link
                                       to={
                                         process.env.PUBLIC_URL +
-                                        "/product/" +
+                                        "/shop/" +
                                         compareItem.id
                                       }
                                     >
@@ -139,7 +139,7 @@ const Compare = () => {
                               );
                             })}
                           </tr>
-                          <tr>
+                          {/* <tr>
                             <th className="title-column">Price</th>
                             {compareItems.map((compareItem, key) => {
                               const discountedPrice = getDiscountPrice(
@@ -174,7 +174,7 @@ const Compare = () => {
                                 </td>
                               );
                             })}
-                          </tr>
+                          </tr> */}
 
                           <tr>
                             <th className="title-column">Description</th>

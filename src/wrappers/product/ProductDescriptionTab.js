@@ -35,7 +35,7 @@ const ProductDescriptionTab = ({
                       <span>Class </span> {product.class}
                     </li>
                     <li>
-                      <span>Quantity</span> {product.quantity}
+                      <span>Quantity</span> {product.numbers}
                     </li>
                     <li>
                       {"Note: "}

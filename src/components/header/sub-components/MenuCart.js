@@ -52,11 +52,11 @@ const MenuCart = () => {
                       </Link>
                     </h4>
                     <h6>Qty: {item.quantity}</h6>
-                    <span>
+                    {/* <span>
                       {discountedPrice !== null
                         ? currency.currencySymbol + finalDiscountedPrice
                         : currency.currencySymbol + finalProductPrice}
-                    </span>
+                    </span> */}
                     {item.selectedProductColor &&
                     item.selectedProductSize ? (
                       <div className="cart-item-variation">
@@ -76,24 +76,24 @@ const MenuCart = () => {
               );
             })}
           </ul>
-          <div className="shopping-cart-total">
+          {/* <div className="shopping-cart-total">
             <h4>
               Total :{" "}
               <span className="shop-total">
                 {currency.currencySymbol + cartTotalPrice.toFixed(2)}
               </span>
             </h4>
-          </div>
+          </div> */}
           <div className="shopping-cart-btn btn-hover text-center">
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
               view cart
             </Link>
-            <Link
+            {/* <Link
               className="default-btn"
               to={process.env.PUBLIC_URL + "/checkout"}
             >
               checkout
-            </Link>
+            </Link> */}
           </div>
         </Fragment>
       ) : (
