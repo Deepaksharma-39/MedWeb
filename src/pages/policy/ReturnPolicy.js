@@ -17,50 +17,46 @@ const ReturnPolicy = () => {
         <div>
           <div className="card">
             <div className="card-body">
-              We have added a summary to each section for a quick and easy read.
-              You agree to follow the conditions listed below. The summaries are
-              not a part of the actual policy; we have added them to make things
-              easier for you to understand.
+            <h3>Return Policy:</h3>
+            We strive to ensure the precise delivery of the products you request. However, in the case of:<br/>
+            (a) an incomplete order, <br/>
+            (b) receipt of an expired product, <br/>
+            (c) delivery of a damaged product, or <br/>
+            (d) reception of an incorrect product, <br/>
+
             </div>
             <div className="card-body">
-              These Terms of Use ("Terms of Use") have been drafted in
-              accordance with the provisions of Rule 3 (1) of the Information
-              Technology (Intermediaries guidelines) Rules, 2011 that require
-              publishing the rules and regulations, privacy policy and Terms of
-              Use for access or usage of www.sewaktravels.com.
+            Kindly inform Teracure Support promptly within 7 working days of receiving the products to expedite resolution. It's essential to note that Teracure cannot be held liable for such delivery issues if notification isn't made within 7 working days of receipt.
             </div>
-            <div className="card-header">
-              <h5>About Us</h5>
-            </div>
+
             <div className="card-body">
-              The domain name www.sewaktravels.com (hereinafter referred to as
-              "Website") owned and managed by SewakTravels Private Limited, a
-              private limited company, incorporated and existing under the laws
-              of India and having its registered office at 7A Kutchery Road,
-              Meadow Bank, Darjeeling 734101 (hereinafter referred to as
-              "Company")
+            Products labeled as non-refundable cannot be returned, and it's the User's responsibility to ascertain the returnable or non-returnable status of the Product before placing an order.
             </div>
-            <div className="card-header">
-              <h5>Terms of Use</h5>
-            </div>
+
+           
             <div className="card-body">
-              This covers all the terminology that will be used in the rest of
-              the document. Your use of the Website and services and tools are
-              governed by the following terms and conditions ("Terms of Use") as
-              applicable to the Website including the applicable policies that
-              are incorporated herein by way of reference. If 'You' transact on
-              the Website, You shall be subject to the policies that are
-              applicable to the Website for such transaction. By mere use of the
-              Website, You shall be contracting with Company and these terms and
-              conditions including the policies constitute your binding
-              obligations, with the Website. For the purpose of these Terms of
-              Use, wherever the context so requires "You" or "User" shall mean
-              any natural or legal person who has agreed to become a user of the
-              Website by providing Registration Data while registering on the
-              Website as Registered User using the computer systems. This
-              Website allows the User to surf the Website. The term "We", "Us",
-              "Our" shall mean Company.
+            We acknowledge that situations may arise where you wish to return products that are not defective. In such cases, you must inform us within 7 working days of receiving the product. Subsequently, Teracure reserves the exclusive right to accept or decline such returns.
             </div>
+
+            <div className="card-body">
+            <h3>Return Policy Exceptions:</h3>
+            Please be aware that certain product categories do not qualify for replacements or exchanges. Additionally, Teracure retains the authority to decline returns (or refunds) for specific products, as indicated on their respective product pages with the note: "This item cannot be returned for a refund or exchange."
+            </div>
+
+            <div className="card-body">
+            <h3>Refund Policy:</h3>
+            At Teracure, our goal is your complete satisfaction with our products. We're pleased to provide a full refund under the following conditions: <br/>
+            A Full Refund is Possible If:<br/>
+            i. You've received a defective item.<br/>
+            ii. The ordered item(s) is lost or damaged during transit.<br/>
+            iii. You've received a product that has surpassed its expiry date. <br/>
+            (Kindly note: The mode of refund may vary based on circumstances. If the refund is through a Credit/Debit Card or Net Banking, please allow 7 to 10 working days for the credit to reflect in your account. Although we regret any inconvenience caused by this timeframe, the refund delay is per the bank's policy, over which we have no control.)<br/>
+            iv: <b>Cash on Delivery:</b>To facilitate refunds for Cash on Delivery (COD) orders, the User must send an email to saimedilink@gmail.com. Subsequently, the User will receive a refund to their bank account. If the refund is to be processed to the User's bank account, the User will need to furnish their bank account details.<br/>
+            v: In such instances, the refunded amount will be returned to the User's original payment source.<br/>
+            vi: <b>Refund Request Process:</b>To initiate a refund, kindly send an email to saimedilink@gmail.com containing your order details and the reason for requesting the refund. We highly value User feedback and utilize it to consistently enhance the quality of our services.<br/>
+
+            </div>
+
           </div>
         </div>
       </LayoutOne>

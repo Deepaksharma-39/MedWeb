@@ -62,7 +62,7 @@ const Compare = () => {
                                   <Link
                                     to={
                                       process.env.PUBLIC_URL +
-                                      "/product/" +
+                                      "/shop/" +
                                       compareItem.id
                                     }
                                     className="image"
@@ -80,7 +80,7 @@ const Compare = () => {
                                     <Link
                                       to={
                                         process.env.PUBLIC_URL +
-                                        "/product/" +
+                                        "/shop/" +
                                         compareItem.id
                                       }
                                     >
@@ -140,9 +140,6 @@ const Compare = () => {
                                 </td>
                               );
                             })}
-                          </tr>
-                          <tr>
-                            
                           </tr>
 
                           <tr>

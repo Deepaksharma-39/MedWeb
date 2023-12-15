@@ -21,7 +21,7 @@ const HeroSliderTwentyFiveSingle = ({ data }) => {
                   className="animated"
                   to={data.url}
                 >
-                  SHOP NOW
+                 SHOP NOW
                 </Link>
               </div>
             </div>

@@ -52,7 +52,7 @@ const MenuCart = () => {
                       </Link>
                     </h4>
                     <h6>Qty: {item.quantity}</h6>
-                    
+
                     {item.selectedProductColor &&
                     item.selectedProductSize ? (
                       <div className="cart-item-variation">
@@ -72,11 +72,12 @@ const MenuCart = () => {
               );
             })}
           </ul>
-          
+
           <div className="shopping-cart-btn btn-hover text-center">
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
               view cart
             </Link>
+
           </div>
         </Fragment>
       ) : (
