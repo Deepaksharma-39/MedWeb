@@ -17,7 +17,8 @@ const ProductGridSingleTwelve = ({
     compareItem,
     spaceBottomClass,
     colorClass,
-    titlePriceClass
+    titlePriceClass,
+    setModalShow1
 }) => {
     const [modalShow, setModalShow] = useState(false);
     const discountedPrice = getDiscountPrice(product.price, product.discount);
@@ -80,7 +81,8 @@ const ProductGridSingleTwelve = ({
                         </Link>
                     ) : product.stock && product.stock > 0 ? (
                         <button
-                        onClick={() => dispatch(addToCart(product))}
+                        // onClick={() => dispatch(addToCart(product))}
+                        onClick={()=>setModalShow1(true)}
                         className={
                             cartItem !== undefined && cartItem.quantity > 0
                             ? "active"
@@ -162,6 +164,7 @@ const ProductGridSingleTwelve = ({
             </div>
             {/* product modal */}
             <ProductModal
+            setModalShow1={setModalShow1}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
                 product={product}
@@ -185,6 +188,7 @@ ProductGridSingleTwelve.propTypes = {
     spaceBottomClass: PropTypes.string,
     colorClass: PropTypes.string,
     titlePriceClass: PropTypes.string,
+    setModalShow1:PropTypes.func
 };
 
 export default ProductGridSingleTwelve;

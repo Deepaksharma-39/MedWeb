@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import HeroSliderTwentyFive from "../../wrappers/hero-slider/HeroSliderTwentyFive";
@@ -9,10 +9,13 @@ import ProductSlider from "../../wrappers/product/ProductSlider";
 // import BlogFeaturedFour from "../../wrappers/blog-featured/BlogFeaturedFour";
 import MedicalContact from "../../components/contact/MedicalContact";
 import TabProductSixteen from "../../wrappers/product/TabProductSixteen";
+import Popup from "../../components/popup/Popup";
 
 
 
 const Home = () => {
+  const [modalShow, setModalShow] = useState(false)
+
   return (
     <Fragment>
       <SEO
@@ -31,15 +34,16 @@ const Home = () => {
         {/* feature icon */}
         <FeatureIconFive spaceBottomClass="pb-100" />
          {/* tab product */}
-         <TabProductSixteen spaceBottomClass="pb-70" category="medical" />
+         <TabProductSixteen spaceBottomClass="pb-70" category="medical" setModalShow={setModalShow} />
          {/* banner */}
          {/* <BannerTwentySix spaceBottomClass="pb-70" /> */}
          {/* contact */}
         <MedicalContact />
          {/* product slider */}
-         <ProductSlider category="medical" />
+         <ProductSlider category="medical" setModalShow={setModalShow}/>
         {/* blog */}
         {/* <BlogFeaturedFour spaceBottomClass="pb-55" spaceTopClass="pt-95" /> */}
+        <Popup show={modalShow} onHide={()=>setModalShow(false)} />
 
       </LayoutOne>
     </Fragment>

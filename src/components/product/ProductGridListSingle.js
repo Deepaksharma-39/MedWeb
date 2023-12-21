@@ -11,6 +11,7 @@ import { addToCompare } from "../../store/slices/compare-slice";
 import { getDiscountPrice } from "../../helpers/product";
 
 const ProductGridListSingle = ({
+  setModalShow1,
   product,
   currency,
   cartItem,
@@ -90,7 +91,8 @@ const ProductGridListSingle = ({
                 </Link>
               ) : product.stock && product.stock > 0 ? (
                 <button
-                  onClick={() => dispatch(addToCart(product))}
+                  // onClick={() => dispatch(addToCart(product))}
+                  onClick={()=>setModalShow1(true)}
                   className={
                     cartItem !== undefined && cartItem.quantity > 0
                       ? "active"
@@ -105,7 +107,7 @@ const ProductGridListSingle = ({
                   <i className="pe-7s-cart"></i>{" "}
                   {cartItem !== undefined && cartItem.quantity > 0
                     ? "Added"
-                    : "Add to cart"}
+                    : "Buy Now"}
                 </button>
               ) : (
                 <button disabled className="active">
@@ -238,7 +240,8 @@ const ProductGridListSingle = ({
                     </Link>
                   ) : product.stock && product.stock > 0 ? (
                     <button
-                      onClick={() => dispatch(addToCart(product))}
+                      // onClick={() => dispatch(addToCart(product))}
+                      onClick={()=>setModalShow1(true)}
                       className={
                         cartItem !== undefined && cartItem.quantity > 0
                           ? "active"
@@ -297,6 +300,7 @@ const ProductGridListSingle = ({
       </div>
       {/* product modal */}
       <ProductModal
+      setModalShow1={setModalShow1}
         show={modalShow}
         onHide={() => setModalShow(false)}
         product={product}
@@ -317,6 +321,7 @@ ProductGridListSingle.propTypes = {
   currency: PropTypes.shape({}),
   product: PropTypes.shape({}),
   spaceBottomClass: PropTypes.string,
+  setModalShow1:PropTypes.func,
   wishlistItem: PropTypes.shape({}),
 };
 

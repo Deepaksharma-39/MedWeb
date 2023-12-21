@@ -85,7 +85,7 @@ const Compare = () => {
                                       {compareItem.name}
                                     </Link>
                                   </div>
-                                  <div className="compare-btn">
+                                  {/* <div className="compare-btn">
                                     {compareItem.affiliateLink ? (
                                       <a
                                         href={compareItem.affiliateLink}
@@ -134,7 +134,7 @@ const Compare = () => {
                                         Out of Stock
                                       </button>
                                     )}
-                                  </div>
+                                  </div> */}
                                 </td>
                               );
                             })}
