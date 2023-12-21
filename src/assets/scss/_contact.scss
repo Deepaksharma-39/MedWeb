@@ -10,7 +10,7 @@
 }
 
 .contact-info-wrap {
-  padding: 120px 70px 116px 90px;
+  padding: 98px 70px 118px 90px;
 
   background-color: #f3f3f3;
   @media #{$lg-layout} {
@@ -58,7 +58,7 @@
         a {
           color: #404040;
           &:hover {
-            color: $theme-color;
+            color: #1da0b5;
           }
         }
         &:last-child {
@@ -94,7 +94,7 @@
 
         color: #4d4d4d;
         &:hover {
-          color: $theme-color;
+          color:#1da0b5;
         }
       }
     }
@@ -155,7 +155,7 @@
       border: none;
       background-color: #404040;
       &:hover {
-        background-color: $theme-color;
+        background-color: #1da0b5;
       }
     }
   }

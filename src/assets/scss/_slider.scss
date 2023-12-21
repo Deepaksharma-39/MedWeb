@@ -123,7 +123,7 @@
         }
         &:hover {
           color: #fff;
-          border: 1px solid $theme-color;
+          border: 1px solid #1da0b5;
         }
       }
     }
@@ -302,7 +302,7 @@
       left: 15px;
     }
     &:hover {
-      color: $theme-color;
+      color: #1da0b5;
     }
     &.swiper-button-next {
       right: 80px;
@@ -567,7 +567,7 @@
       }
       &:hover {
         color: #fff;
-        border: 1px solid $theme-color;
+        border: 1px solid #1da0b5;
       }
     }
 
@@ -613,7 +613,7 @@
         background-color: #6eab49;
         &:hover {
           color: #fff;
-          border: 1px solid $theme-color;
+          border: 1px solid #1da0b5;
         }
       }
     }
@@ -640,9 +640,9 @@
     h3 {
       letter-spacing: 0.8px;
 
-      color: #c61a32;
+      color: #1da0b5;
       &::before {
-        background-color: #c61a32;
+        background-color: #1da0b5;
         @media #{$sm-layout} {
           left: 45px;
         }
@@ -674,7 +674,7 @@
         background-color: #c61a32;
         &:hover {
           color: #fff;
-          border: 1px solid $theme-color;
+          border: 1px solid #1da0b5;
         }
       }
     }
@@ -756,7 +756,7 @@
 /* home 3 */
 
 .slider-height-2 {
-  height: 800px;
+  height: 600px;
   @media #{$xl-layout} {
     height: 570px;
   }
@@ -852,7 +852,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid $theme-color;
+        border: 1px solid #1da0b5;
       }
     }
   }
@@ -960,7 +960,7 @@
           padding: 12px 30px 11px;
         }
         &:hover {
-          border: 1px solid $theme-color;
+          border: 1px solid #1da0b5;
         }
       }
     }
@@ -1197,7 +1197,7 @@
   }
   &:hover {
     color: #fff;
-    background-color: $theme-color;
+    background-color: #1da0b5;
   }
   &.owl-next {
     right: 0;
@@ -1325,7 +1325,7 @@
   }
   &:hover {
     color: #fff;
-    background-color: $theme-color;
+    background-color: #1da0b5;
   }
 }
 
@@ -1461,7 +1461,7 @@
     }
     &:hover {
       color: #fff;
-      border: 1px solid $theme-color;
+      border: 1px solid #1da0b5;
     }
   }
   &.slider-content-mrg-hm17 {
@@ -2221,7 +2221,7 @@
       padding: 13px 30px 15px;
     }
     &:hover {
-      border: 1px solid $theme-color;
+      border: 1px solid #1da0b5;
     }
   }
 }
