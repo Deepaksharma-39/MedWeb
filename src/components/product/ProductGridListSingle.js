@@ -61,7 +61,7 @@ const ProductGridListSingle = ({
           )}
 
           <div className="product-action">
-            <div className="pro-same-action pro-wishlist">
+            {/* <div className="pro-same-action pro-wishlist">
               <button
                 className={wishlistItem !== undefined ? "active" : ""}
                 disabled={wishlistItem !== undefined}
@@ -74,7 +74,7 @@ const ProductGridListSingle = ({
               >
                 <i className="pe-7s-like" />
               </button>
-            </div>
+            </div> */}
             <div className="pro-same-action pro-cart">
               {product.affiliateLink ? (
                 <a
@@ -265,7 +265,7 @@ const ProductGridListSingle = ({
                   )}
                 </div>
 
-                <div className="shop-list-wishlist ml-10">
+                {/* <div className="shop-list-wishlist ml-10">
                   <button
                     className={wishlistItem !== undefined ? "active" : ""}
                     disabled={wishlistItem !== undefined}
@@ -278,8 +278,8 @@ const ProductGridListSingle = ({
                   >
                     <i className="pe-7s-like" />
                   </button>
-                </div>
-                <div className="shop-list-compare ml-10">
+                </div> */}
+                {/* <div className="shop-list-compare ml-10">
                   <button
                     className={compareItem !== undefined ? "active" : ""}
                     disabled={compareItem !== undefined}
@@ -288,11 +288,11 @@ const ProductGridListSingle = ({
                         ? "Added to compare"
                         : "Add to compare"
                     }
-                    onClick={() => dispatch(addToCompare(product))}
+                    // onClick={() => dispatch(addToCompare(product))}
                   >
                     <i className="pe-7s-shuffle" />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

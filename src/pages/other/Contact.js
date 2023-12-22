@@ -36,7 +36,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-info-dec">
                       <p>+91 8178 3070 47</p>
-                      {/* <p>+012 345 678 102</p> */}
+                      <p>+91 9999 6678 03</p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -46,7 +46,7 @@ const Contact = () => {
                     <div className="contact-info-dec">
                       <p>
                         <a href="mailto:saimedilink@gmail.com">
-                          saimedilink@gmail.com
+                          contact@teracure.com
                         </a>
                       </p>
                       {/* <p>
