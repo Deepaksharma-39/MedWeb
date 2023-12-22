@@ -62,7 +62,7 @@ const ProductGridSingle = ({
           )}
 
           <div className="product-action">
-            <div className="pro-same-action pro-wishlist">
+            {/* <div className="pro-same-action pro-wishlist">
               <button
                 className={wishlistItem !== undefined ? "active" : ""}
                 disabled={wishlistItem !== undefined}
@@ -71,11 +71,11 @@ const ProductGridSingle = ({
                     ? "Added to wishlist"
                     : "Add to wishlist"
                 }
-                onClick={() => dispatch(addToWishlist(product))}
+                // onClick={() => dispatch(addToWishlist(product))}
               >
                 <i className="pe-7s-like" />
               </button>
-            </div>
+            </div> */}
             <div className="pro-same-action pro-cart">
               {product.affiliateLink ? (
                 <a
