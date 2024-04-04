@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import {  useState } from "react";
 import PropTypes from "prop-types";
 import { EffectFade, Thumbs } from 'swiper/modules';
 import { Modal } from "react-bootstrap";
@@ -6,11 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import Rating from "./sub-components/ProductRating";
 import Swiper, { SwiperSlide } from "../../components/swiper";
 import { getProductCartQuantity } from "../../helpers/product";
-import { addToCart } from "../../store/slices/cart-slice";
-import { addToWishlist } from "../../store/slices/wishlist-slice";
-import { addToCompare } from "../../store/slices/compare-slice";
 
-function ProductModal({ setModalShow1,product, currency, discountedPrice, finalProductPrice, finalDiscountedPrice, show, onHide, wishlistItem, compareItem }) {
+function ProductModal({ setModalShow1,product, show, onHide }) {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const dispatch = useDispatch();
   const { cartItems } = useSelector((state) => state.cart);
@@ -107,20 +104,6 @@ function ProductModal({ setModalShow1,product, currency, discountedPrice, finalP
         <div className="col-md-7 col-sm-12 col-xs-12">
           <div className="product-details-content quickview-content">
             <h2>{product.name}</h2>
-            {/* <div className="product-details-price">
-              {discountedPrice !== null ? (
-                <Fragment>
-                  <span>
-                    {currency.currencySymbol + finalDiscountedPrice}
-                  </span>{" "}
-                  <span className="old">
-                    {currency.currencySymbol + finalProductPrice}
-                  </span>
-                </Fragment>
-              ) : (
-                <span>{currency.currencySymbol + finalProductPrice} </span>
-              )}
-            </div> */}
             {product.rating && product.rating > 0 ? (
               <div className="pro-details-rating-wrap">
                 <div className="pro-details-rating">
@@ -257,14 +240,6 @@ function ProductModal({ setModalShow1,product, currency, discountedPrice, finalP
                 <div className="pro-details-cart btn-hover">
                   {productStock && productStock > 0 ? (
                     <button
-                      // onClick={() =>
-                      //   dispatch(addToCart({
-                      //     ...product,
-                      //     quantity: quantityCount,
-                      //     selectedProductColor: selectedProductColor ? selectedProductColor : product.selectedProductColor ? product.selectedProductColor : null,
-                      //     selectedProductSize: selectedProductSize ? selectedProductSize : product.selectedProductSize ? product.selectedProductSize : null
-                      //   }))
-                      // }
                       disabled={productCartQty >= productStock}
                       onClick={()=>setModalShow1(true)}
                     >
@@ -275,34 +250,6 @@ function ProductModal({ setModalShow1,product, currency, discountedPrice, finalP
                     <button disabled>Out of Stock</button>
                   )}
                 </div>
-                {/* <div className="pro-details-wishlist">
-                  <button
-                    className={wishlistItem !== undefined ? "active" : ""}
-                    disabled={wishlistItem !== undefined}
-                    title={
-                      wishlistItem !== undefined
-                        ? "Added to wishlist"
-                        : "Add to wishlist"
-                    }
-                    // onClick={() => dispatch(addToWishlist(product))}
-                  >
-                    <i className="pe-7s-like" />
-                  </button>
-                </div> */}
-                {/* <div className="pro-details-compare">
-                  <button
-                    className={compareItem !== undefined ? "active" : ""}
-                    disabled={compareItem !== undefined}
-                    title={
-                      compareItem !== undefined
-                        ? "Added to compare"
-                        : "Add to compare"
-                    }
-                    // onClick={() => dispatch(addToCompare(product))}
-                  >
-                    <i className="pe-7s-shuffle" />
-                  </button>
-                </div> */}
               </div>
             )}
           </div>

@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { getDiscountPrice } from "../../helpers/product";
 import ProductModal from "./ProductModal";
-import { addToCart } from "../../store/slices/cart-slice";
-import { addToWishlist } from "../../store/slices/wishlist-slice";
-import { addToCompare } from "../../store/slices/compare-slice";
 
 const ProductGridSingleTwelve = ({
     product,
@@ -105,19 +102,6 @@ const ProductGridSingleTwelve = ({
                     <button onClick={() => setModalShow(true)} title="Quick View">
                         <i className="fa fa-eye"></i>
                     </button>
-
-                    {/* <button
-                        className={compareItem !== undefined ? "active" : ""}
-                        disabled={compareItem !== undefined}
-                        title={
-                        compareItem !== undefined
-                            ? "Added to compare"
-                            : "Add to compare"
-                        }
-                        // onClick={() => dispatch(addToCompare(product))}
-                    >
-                        <i className="fa fa-retweet"></i>
-                    </button> */}
                     </div>
                 </div>
                 <div className="product-content-2">
@@ -131,35 +115,7 @@ const ProductGridSingleTwelve = ({
                         {product.name}
                         </Link>
                     </h3>
-                    {/* <div className="price-2">
-                        {discountedPrice !== null ? (
-                        <Fragment>
-                            <span>
-                            {currency.currencySymbol + finalDiscountedPrice}
-                            </span>{" "}
-                            <span className="old">
-                            {currency.currencySymbol + finalProductPrice}
-                            </span>
-                        </Fragment>
-                        ) : (
-                        <span>{currency.currencySymbol + finalProductPrice} </span>
-                        )}
-                    </div> */}
                     </div>
-                    {/* <div className="pro-wishlist-2">
-                    <button
-                        className={wishlistItem !== undefined ? "active" : ""}
-                        disabled={wishlistItem !== undefined}
-                        title={
-                        wishlistItem !== undefined
-                            ? "Added to wishlist"
-                            : "Add to wishlist"
-                        }
-                        // onClick={() => dispatch(addToWishlist(product))}
-                    >
-                        <i className="fa fa-heart-o" />
-                    </button>
-                    </div> */}
                 </div>
             </div>
             {/* product modal */}
