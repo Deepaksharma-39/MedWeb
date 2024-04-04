@@ -11,6 +11,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/ACEPTOR-TABLETS.webp",
       "/assets/img/product/medical/ACEPTOR-TABLETS.webp"
     ],
     "shortDescription": "Aceptor tablets contain the active ingredient Benazepril Hydrochloride, classified as an ACE inhibitor primarily designed for veterinary use in dogs and cats. This vasodilator medication functions by inhibiting the angiotensin-converting enzyme (ACE), contributing to vasodilation, thereby controlling hypertension and reducing proteinuria associated with Chronic Kidney Disease (CKD).",
@@ -62,6 +63,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/DOXYPET-TABLETS.webp",
       "/assets/img/product/medical/DOXYPET-TABLETS.webp"
     ],
     "shortDescription": "Doxypet tablets contain doxycycline hydrochloride combined with lactic acid bacillus spores. Doxycycline, classified as a tetracycline antibiotic, operates as a bacteriostatic agent. Its mechanism involves the inhibition of protein synthesis at the initiation stage by interacting with the 30S ribosomal subunit.",
@@ -119,6 +121,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/SAFEHEART-TABLETS.webp",
       "/assets/img/product/medical/SAFEHEART-TABLETS.webp"
     ],
     "shortDescription": "SafeHeart includes Pimobendan as a constituent. Pimobendan is a non-sympathomimetic, non-glycoside inotropic medication known for its vasodilatory impact. It is used to address symptoms associated with varying levels of congestive heart failure (modified New York Heart Association = NYHA class IIa, IIIb, IVc), manage issues linked to Arterioventricular Valvular Insufficiency (AVVI), and treat Dilated Cardiomyopathy (DCM) in canines.",
@@ -178,6 +181,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/CARODYL-TABLETS.webp",
       "/assets/img/product/medical/CARODYL-TABLETS.webp"
     ],
     "shortDescription": "Carodyl 100, Carodyl 75, and Carodyl 25 tablets have carprofen as their active ingredient. Carprofen works by mainly targeting the COX-2 enzyme, reducing the production of specific prostaglandins associated with inflammation. It has properties that help reduce fever, inflammation, and pain. This medication belongs to the propionic acid class of NSAIDs, which includes ibuprofen and ketoprofen among others.",
@@ -241,6 +245,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/KIWOF-HART-TABLETS.webp",
       "/assets/img/product/medical/KIWOF-HART-TABLETS.webp"
     ],
     "shortDescription": "Kiwof Hart tablets are employed to prevent and treat heartworm disease in dogs. They efficiently eliminate and expel heartworms. A pet can contract heartworm disease from a single mosquito bite. This disease, also known as Dirofilariasis, is caused by Dirofilaria immitis, a parasitic roundworm that inflicts substantial damage to the heart and lungs. It's a zoonotic disease, potentially fatal for both animals and humans.",
@@ -307,6 +312,7 @@
     "tag": ["Medical,", "Pet,", "Dog", "Cat"],
     "stock": 25,
     "image": [
+      "/assets/img/product/medical/KIWOF-PLUS.jpg",
       "/assets/img/product/medical/KIWOF-PLUS.jpg"
     ],
     "shortDescription": "Kiwof Plus and Kiwof Plus XL tablets contain three distinct active ingredients, each with unique ways of functioning and target ranges. Praziquantel targets cestodes, specifically tapeworms. Pyrantel pamoate combats hookworms and ascarids. Febantel acts against nematode parasites, which include whipworms in its spectrum of activity.",

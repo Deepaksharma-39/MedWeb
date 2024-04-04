@@ -36,7 +36,7 @@ const ProductSlider = ({ spaceBottomClass, category,setModalShow }) => {
   const prods = getProducts(products, category, null, 6)
 
   return (
-    <div className={clsx("related-product-area", spaceBottomClass)}>
+    <div className={clsx("related-product-area, pb-30", spaceBottomClass)}>
       <div className="container">
         <SectionTitle
           titleText="Our Products"
