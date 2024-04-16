@@ -45,7 +45,7 @@ $ git clone https://github.com/TechPlek-Technologies/Teracure.git
 # Install dependencies
 $ npm install
 # start app
-$ npm start dev
+$ npm start 
 ```
 
 
